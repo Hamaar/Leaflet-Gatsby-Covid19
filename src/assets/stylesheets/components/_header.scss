@@ -1,7 +1,6 @@
 header {
-
   width: 100%;
-  color: $white;
+  color: lighten($gatsby-purple, 50);
   background-color: $gatsby-purple;
 
   .container {
@@ -23,9 +22,9 @@ header {
 
   a {
     display: block;
-    color: lighten($gatsby-purple, 50);
+    color: lighten($gatsby-purple, 40);
     text-decoration: none;
-    padding: 0 .5em;
+    padding: 0 0.5em;
   }
 
   p {
@@ -34,4 +33,7 @@ header {
     margin: 0;
   }
 
+  .active-li {
+    color: lighten($gatsby-purple, 50);
+  }
 }

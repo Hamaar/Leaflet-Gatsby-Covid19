@@ -1,13 +1,11 @@
-import React from 'react';
-
-import Container from 'components/Container';
+import React from "react";
 
 const Footer = () => {
   return (
     <footer>
-      <Container>
-        <p>&copy; { new Date().getFullYear() }, My Gatsby Site</p>
-      </Container>
+      <p>
+        Copyright &copy; {new Date().getFullYear()} Covid, All rights reserved.
+      </p>
     </footer>
   );
 };

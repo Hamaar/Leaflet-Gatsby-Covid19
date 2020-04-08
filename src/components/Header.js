@@ -1,19 +1,43 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from "react";
+import { Link } from "gatsby";
 
-import Container from 'components/Container';
+import Container from "components/Container";
 
 const Header = () => {
   return (
     <header>
       <Container type="content">
-        <p>My Gatsby Site</p>
+        <p>Covid19 Gatsby Site</p>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link activeClassName="active-li" to="/">
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/page-2/">Page 2</Link>
+            <Link activeClassName="active-li" to="/symptoms/">
+              Symptoms
+            </Link>
+          </li>
+          <li>
+            <Link activeClassName="active-li" to="/treatment/">
+              Treatment
+            </Link>
+          </li>
+          <li>
+            <Link activeClassName="active-li" to="/doctors/">
+              Doctors
+            </Link>
+          </li>
+          <li>
+            <Link activeClassName="active-li" to="/medicine/">
+              Medicine
+            </Link>
+          </li>
+          <li>
+            <Link activeClassName="active-li" to="/contact/">
+              Contact
+            </Link>
           </li>
         </ul>
       </Container>

@@ -1,5 +1,4 @@
 .page-home {
-
   .map,
   .map-base {
     height: 50vh;
@@ -23,7 +22,6 @@
   }
 
   .popup-gatsby-content {
-
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -33,16 +31,14 @@
     padding-right: 1em;
 
     h1 {
-      margin: 0 0 .2em;
+      margin: 0 0 0.2em;
     }
     p {
-      margin: 0 0 .5em;
+      margin: 0 0 0.5em;
     }
-
   }
 
   .gatsby-astronaut {
-
     overflow: hidden;
     width: 10em;
     height: 10em;
@@ -55,13 +51,10 @@
       width: 100%;
       height: auto;
     }
-
   }
-
 }
 
 .home-start {
-
   padding-top: 4em;
   padding-bottom: 4em;
 
@@ -76,5 +69,199 @@
   pre {
     margin-bottom: 1.5em;
   }
+}
 
+.container-content-card {
+  padding-top: 4em;
+  padding-bottom: 6em;
+  background-color: #f8fbff;
+  height: auto;
+  .p1 {
+    margin-bottom: 1.5em;
+    color: orange;
+    font-size: small;
+    text-align: center;
+  }
+  .p2 {
+    margin: 0;
+    font-size: x-large;
+    text-align: center;
+  }
+  .p3 {
+    margin: 0;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .content-container-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 34px;
+  }
+  .card-container {
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 14px;
+    background-color: white;
+    height: 310px;
+    width: 220px;
+    -webkit-box-shadow: 0px 7px 19px -9px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 0px 7px 19px -9px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 7px 19px -9px rgba(0, 0, 0, 0.31);
+  }
+
+  .img-card {
+    height: 50%;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-title-card {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text-desc-card {
+    font-size: medium;
+    text-align: center;
+  }
+}
+
+.container-content-stay-home {
+  padding-top: 4em;
+  padding-bottom: 6em;
+  height: auto;
+
+  .container-stay-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .title {
+    margin-bottom: 1.5em;
+    color: orange;
+    font-size: small;
+    text-align: center;
+  }
+  .subtitle {
+    margin: 0;
+    font-size: x-large;
+    text-align: center;
+  }
+  .subtitlenext {
+    margin: 0;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .text-stay-home {
+    width: 45%;
+    margin-left: 40px;
+  }
+  .btn-stay-home {
+    width: 130px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #f0a000;
+    border-radius: 20px;
+
+    margin-top: 34px;
+    -webkit-box-shadow: 3px 2px 10px 6px rgba(250, 223, 170, 1);
+    -moz-box-shadow: 3px 2px 10px 6px rgba(250, 223, 170, 1);
+    box-shadow: 3px 2px 10px 6px rgba(250, 223, 170, 1);
+  }
+  .desc {
+    margin-top: 34px;
+  }
+
+  .img-stay-home {
+    width: 55%;
+    height: 400px;
+  }
+}
+
+.container-content-stay-safe {
+  padding-top: 4em;
+  padding-bottom: 6em;
+  background-color: #fffbf0;
+  height: auto;
+
+  .container-stay-safe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .title {
+    margin-bottom: 1.5em;
+    color: orange;
+    font-size: small;
+    text-align: center;
+  }
+  .subtitle {
+    margin: 0;
+    font-size: x-large;
+    text-align: center;
+  }
+  .subtitlenext {
+    margin: 0;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .text-stay-safe {
+    width: 45%;
+    margin-left: 40px;
+  }
+  .btn-stay-safe {
+    width: 130px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1fb5ab;
+    border-radius: 20px;
+
+    margin-top: 34px;
+    -webkit-box-shadow: 3px 2px 10px 6px rgba(187, 233, 221, 1);
+    -moz-box-shadow: 3px 2px 10px 6px rgba(187, 233, 221, 1);
+    box-shadow: 3px 2px 10px 6px rgba(187, 233, 221, 1);
+  }
+  .desc {
+    margin-top: 34px;
+  }
+
+  .img-stay-safe {
+    width: 55%;
+    height: 400px;
+  }
+}
+
+.container-footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .title-li {
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+
+  li {
+    margin-bottom: 14px;
+  }
 }
