@@ -1,4 +1,30 @@
-# 🍃 Gatsby Leaflet Starter
+# Leaflet-Gatsby-Covid19
+this dashboard about covid 19 and there is a map of the distribution of the virus.
+
+<span><img src="https://i.imgur.com/266G6cP.png" width="auto" /></span>
+
+
+### Design Refference
+- http://uplabs.com/posts/covid-19-prevention-web-design
+
+### Library Refference
+- [Axios](https://github.com/axios/axios)
+- [Graphql] (https://graphql.org) 
+
+### Data Source
+- [COVID-19 API (made by NovelCOVID)](https://github.com/NovelCOVID/API)
+
+
+### LICENSE
+MIT
+
+---
+
+Copyright © 2020 by Hamaar
+
+
+---
+# 🍃 Using Gatsby Leaflet Starter
 
 Jumpstart your next Gatsby mapping project with Leaflet!
 
