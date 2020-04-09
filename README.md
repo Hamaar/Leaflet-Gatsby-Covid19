@@ -9,7 +9,7 @@ this dashboard about covid 19 and there is a map of the distribution of the viru
 
 ### Library Refference
 - [Axios](https://github.com/axios/axios)
-- [Graphql] (https://graphql.org) 
+- [Graphql](https://graphql.org) 
 
 ### Data Source
 - [COVID-19 API (made by NovelCOVID)](https://github.com/NovelCOVID/API)
